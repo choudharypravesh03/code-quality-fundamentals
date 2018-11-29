@@ -1,9 +1,9 @@
-### Code Quality Fundamentals
+## Code Quality Fundamentals
 
 Nadia’s Garden Restaurant is a Node.js and Express website that accepts and lists restaurant reservations.A maintainable codebase with clean and easy-to-manage code with specific attention to code quality. This can help you immensely to learn what code quality features to be implemented in your code. 
 
 
-## Getting Started
+### Getting Started
 
 ```bash
 npm install
