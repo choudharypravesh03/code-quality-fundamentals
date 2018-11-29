@@ -1,8 +1,7 @@
-# Nadia’s Garden Restaurant
+### Code Quality Fundamentals
 
-This is a Node.js and Express website that accepts and lists restaurant reservations. Improve it with the lynda.com course, "Node.js: Testing and Code Quality" by Jon Peck.
+Nadia’s Garden Restaurant is a Node.js and Express website that accepts and lists restaurant reservations.A maintainable codebase with clean and easy-to-manage code with specific attention to code quality. This can help you immensely to learn what code quality features to be implemented in your code. 
 
-The backend contains intentional mistakes, like weak validation on email addresses. Inconsistencies in coding style are also intentional.
 
 ## Getting Started
 
@@ -29,32 +28,4 @@ This project uses https://www.npmjs.com/package/debug for development logging. T
 
 ```bash
 npm run debug
-```
-
-## FAQ
-
-- Q: Why didn't you store the time submitted?
-  - A: I wanted to reduce the number of fields and simplify testing.
-- Q: Wouldn't it be easier if the form submitted a datetime string instead of building and parsing one?
-  - A: Yes, it would, but the form logic is simpler. Either way, someone has to do the work.
-- Q: Why did you mix a callback and a Promise in `lib/reservations.js`?
-  - A: `Joi` doesn't support Promises, but it does support callbacks. I wanted to show how to test both kinds of asynchronous code.
-- Q: How'd you handle cross-platform support?
-  - A: Avoided relative directories, used `cross-env` to transform environmental variables.
-
-## Credits
-
-This is an adaptation of a WordPress site hosted at http://587672.youcanlearnit.net/
-
-The conversion:
-
-- Archive original with wget
-- Strip out unrelated functionality
-- Reorganize JavaScript and Stylesheets into logical directories
-- Converted HTML into Jade / Pug templates using http://html2jade.org/
-
-The front end should be mostly unchanged from the original.
-
-
-# code-quality-fundamentals
-A maintainable codebase with clean and easy-to-manage code with specific attention to code quality. This can help you immensely to learn what code quality features to be implemented in your code.   
+```  
