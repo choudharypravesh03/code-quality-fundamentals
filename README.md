@@ -1,4 +1,4 @@
-# Nadia’s Garden Restaurant
+# Code Quality Fundamentals
 
 This is a Node.js and Express website that accepts and lists restaurant reservations. You will be able to learn a lot about the latest coding standards and practices that should be used in a web application. Hope it can be of any help to people working on their own applications :)
 
